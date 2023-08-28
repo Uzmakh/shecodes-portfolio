@@ -1,92 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Uzma Khan Portfolio homepage contains basic information of her work.">
-     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="    https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
-    <!-- custom css -->
-    <link rel="stylesheet" href="style.css">
-    <title>Uzma Khan Portfolio - Home Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Uzma Khan Portfolio homepage contains basic information of her work.">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="    https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+  <!-- custom css -->
+  <link rel="stylesheet" href="style.css">
+  <title>Uzma Khan Portfolio - Home Page</title>
 </head>
+
 <body>
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg bg-light fixed-top">
-  <div class="container">
-    <a class="navbar-brand" href="index.html">Uzma Khan</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html#contact">Contact me</a>
-        </li>
-      </ul>
+    <div class="container">
+      <a class="navbar-brand" href="/">Uzma Khan</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about.html">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about.html#contact">Contact me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- /navbar -->
+  <div class="container-css text-center">
+    <h3>
+      👋 Hi, I am
+    </h3>
+    <h1>Uzma Khan</h1>
+    <h3>🇵🇰 front-end developer 🦋, based in Asia</h3>
+    <div class="navigation-links">
+      <a href="/about.html" class="about-link" title="about Uzma Khan">About Me</a>
+      <a href="/about.html#contact" class="contact-link" title="contact Uzma Khan">Contact Me</a>
     </div>
   </div>
-</nav>
-<!-- /navbar -->
-    <div class="container-css text-center">
-      <h3>
-        👋 Hi, I am
-      </h3>
-      <h1>Uzma Khan</h1>
-      <h3>🇵🇰 front-end developer 🦋, based in Asia</h3>
-      <div class="navigation-links">
-        <a href="about.html" class="about-link" title="about Uzma Khan">About Me</a>
-        <a href="about.html#contact" class="contact-link" title="contact Uzma Khan">Contact Me</a>
+  <!-- /container-css -->
+  <div class="container projects">
+    <!-- First Project -->
+    <div class="row">
+      <div class="col-md-6">
+        <img src="images/project-1.jpg" alt="crochet app" class="img-fluid rounded mb-4 d-none d-md-block">
       </div>
-    </div>
-    <!-- /container-css -->
-    <div class="container projects">
-   <div class="row">
-    <div class="col-sm-12 col-md-6">
-      <img src="images/project-1.jpg" alt="crochet app"  class="img-fluid rounded mb-4 d-none d-md-block">
-    </div>
-    <div class="col-md-6 px-sm-5">
-      <h2>Crochet Landing Page</h2>
-      <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel eos eveniet alias temporibus deserunt veritatis minima fugiat explicabo eum dolore.</p>
-      <div class="mt-5">
-      <a href="#" class="btn-link" title="Crochet Project">Launch Crochet App</a>
+      <div class="col-sm-12 col-md-6 px-sm-5">
+        <h2>Crochet Landing Page</h2>
+        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quia, dignissimos
+          nam ratione veniam quibusdam porro omnis quam vel eos eveniet alias temporibus deserunt veritatis minima
+          fugiat explicabo eum dolore.</p>
+        <div class="mt-5">
+          <a href="#" class="project-link" title="Crochet Project">Launch Crochet App</a>
+        </div>
       </div>
+      <!-- /col-md-6 -->
     </div>
-   </div>
-   <!-- /row -->
-   <div class="row mt-5 ">
-     <div class="col-md-6 mt-sm-4 px-sm-5">
-       <h2 >Weather App</h2>
-      <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel eos eveniet alias temporibus deserunt veritatis minima fugiat explicabo eum dolore.</p>
-      <div class="mt-5 mb-5">
-      <a href="#" class="btn-link" title="Weather Project">Launch Weather App</a>
-      </div>
-    </div>
-    <div class="col-sm-12 col-md-6">
-          <img src="images/project-2.jpg" alt="weather app" class="img-fluid rounded  d-none d-md-block">
-     </div>
+    <!-- /row -->
 
-   <div class="row mt-5 gallery">
-     <div class="col-md-6">
-      <img src="images/project-3.jpg" alt="photo gallery"  class="img-fluid rounded  d-none d-md-block">
-    </div>
-    <div class="col-md-6 mt-5 mt-sm-0 px-sm-5">
-      <h2>Flexbox Photo Gallery</h2>
-      <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel eos eveniet alias temporibus deserunt veritatis minima fugiat explicabo eum dolore.</p>
-       <div class="mt-5 mb-5">
-      <a href="#" class="btn-link" title="Gallery Project" >Launch Flex Gallery</a>
-       </div>
+    <!-- Second Project -->
+    <div class="row mt-5 ">
+      <div class="col-sm-12 col-md-6 mt-sm-4 px-sm-5">
+        <h2>Weather App</h2>
+        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quia, dignissimos
+          nam ratione veniam quibusdam porro omnis quam vel eos eveniet alias temporibus deserunt veritatis minima
+          fugiat explicabo eum dolore.</p>
+        <div class="mt-5 mb-5">
+          <a href="#" class="project-link" title="Weather Project">Launch Weather App</a>
+        </div>
+          </div>
+      <!-- /col-md-6 -->
+    
+      <div class="col-md-6">
+        <img src="images/project-2.jpg" alt="weather app" class="img-fluid rounded  d-none d-md-block">
       </div>
+      <!-- /col-md-6 -->
+        </div>
+        <!-- /row -->
+
+      <!-- Third Project -->
+      <div class="row mt-5">
+        <div class="col-md-6">
+          <img src="images/project-3.jpg" alt="photo gallery" class="img-fluid rounded  d-none d-md-block">
+        </div>
+        <div class="col-sm-12 col-md-6 mt-5 mt-sm-0 px-sm-5">
+          <h2>Flexbox Photo Gallery</h2>
+          <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quia, dignissimos
+            nam ratione veniam quibusdam porro omnis quam vel eos eveniet alias temporibus deserunt veritatis minima
+            fugiat explicabo eum dolore.</p>
+          <div class="mt-5">
+            <a href="#" class="project-link" title="Gallery Project">Launch Flex Gallery</a>
+          </div>
+        </div>
+        <!-- /col-md-6 -->
+      </div>
+      <!-- /row -->
     </div>
-   </div>
-    </div>
-     <!-- Bootstrap Js -->
-    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- /container-projects -->
+  <!-- Bootstrap Js -->
+  <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
